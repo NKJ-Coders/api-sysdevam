@@ -76,3 +76,12 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+## Installation project
+
+-Créer un fichier .env
+-copier le fichier .env.example et coller dans le fichier .env
+-créer la Base de données
+-Exécuter la commande <php artisan migrate --seed> afin de générer la base de données et les factories
+-Exécuter <composer install> afin de générer tous les packages requis pour le projet
+-Exécuter <php artisan vendor:publish> et entrer le numéro correspondant au package "l5-swagger" (NB: faire de même pour le package JWT)
