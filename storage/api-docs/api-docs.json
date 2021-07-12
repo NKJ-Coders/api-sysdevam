@@ -1,0 +1,208 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "title": "My First API",
+        "version": "0.1"
+    },
+    "paths": {
+        "/api/categories": {
+            "get": {
+                "operationId": "0a3810ef08509327a6db442d3e4c4b73",
+                "responses": {
+                    "200": {
+                        "description": "Display a listing of projects."
+                    }
+                }
+            },
+            "post": {
+                "operationId": "f44066b315f1a6670d352e128ba39465",
+                "responses": {
+                    "200": {
+                        "description": "Display a listing of projects."
+                    }
+                }
+            }
+        },
+        "/api/categories/{category}": {
+            "get": {
+                "operationId": "eb5ce663a0fcec1b46a16acfff7ad328",
+                "responses": {
+                    "200": {
+                        "description": "Display a listing of projects."
+                    }
+                }
+            },
+            "put": {
+                "operationId": "6d36aacb026f753cd62d19db70ccbef7",
+                "responses": {
+                    "200": {
+                        "description": "Display a listing of projects."
+                    }
+                }
+            }
+        },
+        "/api/categories/{category}/delete": {
+            "put": {
+                "operationId": "dd91bf2c3bc972fd4db06149860eb2cb",
+                "responses": {
+                    "200": {
+                        "description": "Display a listing of projects."
+                    }
+                }
+            }
+        },
+        "/api/categories/{category}/restore": {
+            "put": {
+                "operationId": "0e5e31f0e1a22e2899b98f5baec55d86",
+                "responses": {
+                    "200": {
+                        "description": "Display a listing of projects."
+                    }
+                }
+            }
+        },
+        "/api/clients": {
+            "get": {
+                "operationId": "48c205b170910f1a1e8add91012543b5",
+                "responses": {
+                    "200": {
+                        "description": "Display a listing of projects."
+                    }
+                }
+            }
+        },
+        "/api/clients/{client}": {
+            "get": {
+                "operationId": "e1b94279234de95a7144b78642cd2e45",
+                "responses": {
+                    "200": {
+                        "description": "Display a listing of projects."
+                    }
+                }
+            }
+        },
+        "/api/tickets/{ticket}/link-files": {
+            "get": {
+                "operationId": "cb6f87949a66c98264057cb3f6abaf2c",
+                "responses": {
+                    "200": {
+                        "description": "Get all files of one ticket"
+                    }
+                }
+            }
+        },
+        "/api/piece_jointes": {
+            "post": {
+                "operationId": "29de768dfc7909c7b6346b3fab6831b7",
+                "responses": {
+                    "200": {
+                        "description": "Display a listing of projects."
+                    }
+                }
+            }
+        },
+        "/api/tickets": {
+            "get": {
+                "operationId": "0082053c3590628e674a11ec0d1466e6",
+                "responses": {
+                    "200": {
+                        "description": "Display a listing of projects."
+                    }
+                }
+            },
+            "post": {
+                "operationId": "93882881cca9046d8c6ddbbab7309b4b",
+                "responses": {
+                    "200": {
+                        "description": "Display a listing of projects."
+                    }
+                }
+            }
+        },
+        "/api/tickets/{ticket}": {
+            "get": {
+                "operationId": "653dfec809dc77c94527ffba9c1a6a42",
+                "responses": {
+                    "200": {
+                        "description": "Display a listing of projects."
+                    }
+                }
+            },
+            "put": {
+                "operationId": "32c4911fd210af747ca91977ce7bde92",
+                "responses": {
+                    "200": {
+                        "description": "Display a listing of projects."
+                    }
+                }
+            }
+        },
+        "/api/tickets/{ticket}/delete": {
+            "put": {
+                "operationId": "e2baacdc95cb06c8a36ff20ae236c9c6",
+                "responses": {
+                    "200": {
+                        "description": "Display a listing of projects."
+                    }
+                }
+            }
+        },
+        "/api/tickets/{ticket}/restore": {
+            "put": {
+                "operationId": "aa54df7d39d417052e17ee74f866c69e",
+                "responses": {
+                    "200": {
+                        "description": "Display a listing of projects."
+                    }
+                }
+            }
+        },
+        "/api/users": {
+            "get": {
+                "operationId": "c457726701591d1183b53aa71fc13441",
+                "responses": {
+                    "200": {
+                        "description": "Get all users"
+                    }
+                }
+            },
+            "post": {
+                "operationId": "592819a0265360b2014512d6dbfaf0e7",
+                "responses": {
+                    "200": {
+                        "description": "Display a listing of projects."
+                    }
+                }
+            }
+        },
+        "/api/users/{user}": {
+            "get": {
+                "operationId": "d3a14968f8b7a072620c75c7c78ed6f8",
+                "responses": {
+                    "200": {
+                        "description": "Display a listing of projects."
+                    }
+                }
+            },
+            "put": {
+                "operationId": "e29fc231c7937ab09483d35e6e3d1214",
+                "responses": {
+                    "200": {
+                        "description": "Display a listing of projects."
+                    }
+                }
+            },
+            "delete": {
+                "operationId": "e0f9a385a1d6788b99e519bd98cf7239",
+                "responses": {
+                    "200": {
+                        "description": "Display a listing of projects."
+                    }
+                }
+            }
+        }
+    },
+    "security": [
+        []
+    ]
+}
